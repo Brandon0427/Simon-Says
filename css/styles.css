@@ -1,0 +1,74 @@
+body {
+  text-align: center !important;
+  background-color: #011F3F !important;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 4rem;
+  margin:  1.5% auto;
+  color: #FEF2BF;
+}
+
+.score-title{
+  text-align: left !important;
+}
+
+#lifes-remaining-title {
+  font-family: 'Press Start 2P', cursive;
+  text-align: right !important;
+  font-size: 2.5rem;
+  margin:  1.5% auto;
+  padding-top: 1rem;
+  color: #FEF2BF;
+}
+#restart-title {
+  font-family: 'Press Start 2P', cursive;
+  text-align: center !important;
+  font-size: 2.5rem;
+  margin:  1.5% auto;
+  padding-top: 1rem;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50% !important;
+  padding-left: 5% !important;
+  margin: auto;
+}
+
+.btn {
+  margin: 25px !important;
+  display: inline-block !important;
+  height: 200px !important;
+  width: 200px !important;
+  border: 10px solid black !important;
+  border-radius: 20% !important;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red !important;
+}
+
+.green {
+  background-color: green !important;
+}
+
+.blue {
+  background-color: blue !important;
+}
+
+.yellow {
+  background-color: yellow !important;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
